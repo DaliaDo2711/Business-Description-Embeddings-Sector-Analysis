@@ -1,5 +1,6 @@
 # Business Description Embeddings & Sector Analysis  
-Data Visualization Project
+Data Visualization Project using Python
+Goodle colab link: *https://colab.research.google.com/drive/1TaYNW8-jS2N2k3q7bMClZQaGZNKy2n0L?usp=sharing*
 
 ## Project Overview
 This project analyzes and visualizes relationships between public companies based on their **business descriptions** using **pre-computed sentence transformer embeddings** and **UMAP** for dimensionality reduction.
@@ -138,6 +139,7 @@ A presentation accompanies this project and follows this structure:
 5. Conclusion and synthesis
 
 Presentation link: *https://drive.google.com/file/d/1Z1TozFnAcBfsV3UIGhqtdAGlY7N8nYS5/view?usp=sharing*
+Powerpoint slide link: *https://docs.google.com/presentation/d/1b_ip4_Oe6yJpi9KbI3H7VlJTA0cAt5bb/edit?usp=drive_link&ouid=118255482125549420422&rtpof=true&sd=true*
 
 ---
 
