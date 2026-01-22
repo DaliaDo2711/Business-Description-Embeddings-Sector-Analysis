@@ -28,7 +28,7 @@ The dataset contains information for publicly traded companies, including:
 - Sector and industry classifications
 
 ## Data Preparation & Cleaning
-# Data Preparation (one-time)
+### Data Preparation (one-time)
 The original dataset was provided in Parquet format and downloaded from Google Drive.  
 It was converted to CSV for portability and ease of reuse.
 
@@ -41,7 +41,7 @@ df0 = pd.read_parquet("companyInfo.parquet")
 df0
 df0.to_csv("companyInfo.csv", index=False)
 ```
-# Data Cleaning
+### Data Cleaning
 The dataset contained missing values, particularly for ETFs and special securities.
 
 The following cleaning steps were performed:
