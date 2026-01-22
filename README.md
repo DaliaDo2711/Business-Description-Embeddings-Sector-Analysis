@@ -27,7 +27,21 @@ The dataset contains information for publicly traded companies, including:
 - Pre-computed **768-dimensional sentence transformer embeddings**
 - Sector and industry classifications
 
-### Data Preparation & Cleaning
+## Data Preparation & Cleaning
+# Data Preparation (one-time)
+The original dataset was provided in Parquet format and downloaded from Google Drive.  
+It was converted to CSV for portability and ease of reuse.
+
+Original one-time preparation steps (run in Google Colab):
+
+```python
+!gdown 1A2m71ytdnGze4svxtrNRPCIkpXuveB61
+import pandas as pd
+df0 = pd.read_parquet("companyInfo.parquet")
+df0
+df0.to_csv("companyInfo.csv", index=False)
+
+# Data Cleaning
 The dataset contained missing values, particularly for ETFs and special securities.
 
 The following cleaning steps were performed:
