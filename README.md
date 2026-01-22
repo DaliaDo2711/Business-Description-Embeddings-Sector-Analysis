@@ -36,9 +36,16 @@ Original one-time preparation steps (run in Google Colab):
 
 ```python
 !gdown 1A2m71ytdnGze4svxtrNRPCIkpXuveB61
+#Downloading...
+#From: https://drive.google.com/uc?id=1A2m71ytdnGze4svxtrNRPCIkpXuveB61
+#To: /content/companyInfo.parquet
+#100% 9.04M/9.04M [00:00<00:00, 77.0MB/s]
+
 import pandas as pd
 df0 = pd.read_parquet("companyInfo.parquet")
+
 df0
+
 df0.to_csv("companyInfo.csv", index=False)
 ```
 ### Data Cleaning
