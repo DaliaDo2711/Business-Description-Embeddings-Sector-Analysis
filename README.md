@@ -40,7 +40,7 @@ import pandas as pd
 df0 = pd.read_parquet("companyInfo.parquet")
 df0
 df0.to_csv("companyInfo.csv", index=False)
-
+```
 # Data Cleaning
 The dataset contained missing values, particularly for ETFs and special securities.
 
